@@ -530,10 +530,8 @@ STEPS ↓
   line-height: 1;
 }
 .steps__description {
-  display: flex;
-  flex-direction: column;
-  margin-left: 24px;
-  max-width: 320px;
+  padding: 32px 0;
+  padding-left: 64px;
 }
 
 .step__description {
