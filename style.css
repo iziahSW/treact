@@ -87,6 +87,7 @@ main {
 
 button {
   cursor: pointer;
+  border: none;
 }
 
 /* 
@@ -847,6 +848,14 @@ TESTIMONIALS ↓
   display: flex;
 }
 
+.testimonial {
+  margin-top: 40px;
+}
+
+.testimonial__button {
+  width: 16px;
+  height: 16px;
+}
 /* 
 
 START / CALL TO ACTION ↓
