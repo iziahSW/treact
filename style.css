@@ -1253,6 +1253,15 @@ MOBILE RESPONSIVENESS ↓
   .header__img {
     max-width: 512px;
   }
+
+  .plan__bottom {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .plan__button {
+    max-width: none;
+  }
+
   .testimonials__img {
     width: 40%;
   }
