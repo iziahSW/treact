@@ -1223,9 +1223,44 @@ MOBILE RESPONSIVENESS ↓
   header .row {
     align-items: flex-end;
   }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  .header__description--para {
+    font-size: 16px;
+  }
+  .header__customers {
+    padding-right: 64px;
+  }
+
+  .steps__grid {
+    height: 5rem;
+    width: 5rem;
+    bottom: -50px;
+  }
+
+  .header__img--wrapper {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .header__img {
+    max-width: 512px;
+  }
+  .testimonials__img {
+    width: 40%;
+  }
+  .testimonials__description {
+    width: 60%;
+  }
 }
 
 @media (max-width: 1024px) {
+  .nav__links {
+    display: none;
+  }
+
   .btn__menu {
     display: block;
   }
