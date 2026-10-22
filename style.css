@@ -314,6 +314,11 @@ header .row {
   transition: border-color 300ms;
 }
 
+.header__email--input::placeholder {
+  font-weight: 500;
+  color: #9eaabd;
+}
+
 .header__email--input:hover {
   border-color: #a0aec0;
 }
