@@ -544,6 +544,19 @@ STEPS ↓
   padding-left: 64px;
 }
 
+.step__title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #243e63;
+  line-height: 1;
+}
+.step__para {
+  font-size: 14px;
+  color: #718096;
+  margin-top: 12px;
+  font-weight: 500;
+  line-height: 2;
+}
 .step__description {
   display: flex;
   flex-direction: column;
@@ -1271,6 +1284,14 @@ MOBILE RESPONSIVENESS ↓
 }
 
 @media (max-width: 1024px) {
+  .section__title {
+    font-size: 36px;
+  }
+
+  .section__para {
+    font-size: 16px;
+  }
+
   .nav__links {
     display: none;
   }
@@ -1281,6 +1302,61 @@ MOBILE RESPONSIVENESS ↓
   header .row {
     flex-direction: column;
     align-items: center;
+  }
+
+  .header__description,
+  .header__img--wrapper {
+    width: 100%;
+    max-width: 512px;
+    margin: 0 auto;
+  }
+
+  .header__description {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header__description--para {
+    margin: 20px 0;
+  }
+
+  .header__customers--title,
+  .header__img--wrapper {
+    margin-top: 48px;
+  }
+
+  .header__customers {
+    padding-right: 0;
+  }
+  #features .section__title,
+  #pricing .section__title {
+    font-size: 48px;
+  }
+
+  .features {
+    max-width: 768px;
+  }
+  .feature {
+    width: 50%;
+  }
+
+  .quality__description {
+    margin-right: 0;
+    padding-right: 48px;
+  }
+
+  .values__list {
+    flex-direction: column;
+    max-width: 20rem;
+  }
+
+  .plans {
+    flex-direction: column;
+    align-items: center;
+  }
+  h1 {
+    font-size: 30px;
   }
   footer {
     padding: 80px 32px;
